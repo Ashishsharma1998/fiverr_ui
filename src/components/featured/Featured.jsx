@@ -1,15 +1,18 @@
 import React from "react";
+import "./Featured.scss";
 
 function Featured() {
   return (
     <div className="featured">
       <div className="container">
         <div className="left">
-          <h1>Find the perfect freelance Services for your business </h1>
+          <h1>
+            Find the perfect <i>freelance</i> Services for your business{" "}
+          </h1>
           <div className="search">
             <div className="searchInput">
-              <img src="" alt="" />
-              <input type="text" placeholder="try, building mobile app" />
+              <img src="./img/search.png" alt="" />
+              <input type="text" placeholder="try, building mobile app..." />
             </div>
             <button>Search</button>
           </div>
@@ -22,7 +25,9 @@ function Featured() {
           </div>
         </div>
 
-        <div className="right"></div>
+        <div className="right">
+          <img src="./img/man.png" alt="" />
+        </div>
       </div>
     </div>
   );
