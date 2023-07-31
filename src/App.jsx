@@ -11,6 +11,8 @@ import Message from "./pages/message/Message.jsx";
 import Messages from "./pages/messages/Messages.jsx";
 import Add from "./pages/add/Add.jsx";
 import "./App.scss";
+import Login from "./pages/login/Login.jsx";
+import Register from "./pages/register/Register.jsx";
 
 function App() {
   const Layout = () => {
@@ -59,6 +61,14 @@ function App() {
         {
           path: "/add",
           element: <Add />,
+        },
+        {
+          path: "/login",
+          element: <Login />,
+        },
+        {
+          path: "/register",
+          element: <Register />,
         },
       ],
     },
